@@ -12,7 +12,7 @@ import { AuthContext } from "./Context/authContext/authContext"
 import Edit from './components/edit/Edit';
 
 
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   const { user } = useContext(AuthContext)
